@@ -57,7 +57,7 @@ function Weather() {
   }
 
   useEffect(()=>{
-      search("mumbai")
+      search()
   },[])
   return (
     <div className='weather'>
